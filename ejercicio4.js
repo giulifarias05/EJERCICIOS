@@ -1,6 +1,6 @@
 function burbuja(arreglo){
-    for(let i=0;i<arreglo.length -1;i++){
-        for(let j=0;j<arreglo.length -1;j++){
+    for(let i=0;i<arreglo.length-1 ;i++){
+        for(let j=0;j<arreglo.length;j++){
             if (arreglo[j]> arreglo[j+1]){
                 let aux = arreglo[j];
                 arreglo[j] = arreglo[j+1];
